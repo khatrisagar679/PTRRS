@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+img {
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+nav {
+    display: inline;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 0;
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+}
+
+nav a {
+    display: inline-block;
+    color: rgb(84, 71, 71);
+    text-align: center;
+    padding: 14px 15px 0px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(198, 185, 128);
+}
+
+form {
+    display: inline-block;
+    width: 400px;
+    margin: 224px 500px 0px;
+    padding: 50px;
+    font-size: x-large;
+    text-align: center;
+    background-color: rgb(230, 237, 238);
+    border: 5px double rgb(109, 159, 134);
+    border-radius: 130px;
+    opacity: 0.9;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+/* .formbox {
+    font-size: 15pt;
+    height: 30px;
+    width: 240px;
+} */
+
+form input[type="text"] {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(50, 46, 69);
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 0 10px;
+}
+
+
+/* #map {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#form {
+    display: inline-block;
+    position: absolute;
+}
+
+#navigation {
+    display: inline-block;
+    position: absolute;
+} */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Public Transit Route Recommendation System</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <!-- Include the Google Maps JavaScript API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <!-- Call the initMap function when the page is loaded -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+
+</head>
+
+<body>
+
+    <div id="map">
+
+
+    </div>
+
+
+    <div id="navigation">
+        <img src="bus.png" alt="bus img" height="50" width="69">
+        <nav>
+            <ul>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div id="form">
+        <form>
+            <label for="start">Starting location:</label><br>
+            <input type="text" id="start" name="start"><br><br>
+            <label for="destination">Destination:</label><br>
+            <input type="text" id="destination" name="destination"><br><br>
+            <input type="submit" value="Get Recommendation" style="font-size: large;">
+        </form>
+    </div>
+
+</body>
+
+</html>
